@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.smartitomxmh"
+    package="com.example.testsmartitomandroid"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="14"
         android:targetSdkVersion="18" />
 
     <application
@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.smartitomxmh.MainActivity"
+            android:name="com.example.testsmartitomandroid.LoginActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,6 +22,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
+        <activity android:name="com.example.testsmartitomandroid.TwoActivity"></activity>
+   <activity android:name="com.example.testsmartitomandroid.MainActivity"></activity>
+    <activity android:name="com.example.testsmartitomandroid.ConActivity"></activity>
+     <activity android:name="com.example.testsmartitomandroid.SetActivity"></activity>
+      <activity android:name="com.example.testsmartitomandroid.ToolActivity"></activity>
+       <activity android:name="com.example.testsmartitomandroid.WorkActivity"></activity>
+        </application>
 
 </manifest>
