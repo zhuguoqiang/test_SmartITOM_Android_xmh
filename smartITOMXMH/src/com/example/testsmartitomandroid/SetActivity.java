@@ -4,13 +4,13 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class ConActivity extends Activity {
+public class SetActivity extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		TextView textView=new TextView(this);
-//		textView.setText("ÕâÊÇÐÅÏ¢");
+//		textView.setText("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢");
 		setContentView(textView);
 	}
 	

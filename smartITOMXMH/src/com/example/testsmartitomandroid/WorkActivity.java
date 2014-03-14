@@ -2,6 +2,9 @@ package com.example.testsmartitomandroid;
 
 import java.util.ArrayList; 
 import java.util.List; 
+
+import com.example.testsmartitomandroid.R;
+
 import android.app.Activity; 
 import android.content.Context; 
 import android.os.Bundle; 
