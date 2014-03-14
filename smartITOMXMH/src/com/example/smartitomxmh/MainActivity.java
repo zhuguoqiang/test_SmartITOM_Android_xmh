@@ -48,25 +48,25 @@ public class MainActivity extends TabActivity implements OnCheckedChangeListener
     }
    
 
-	@Override
+    @Override
 	public void onCheckedChanged(RadioGroup group, int checkedId) {
 		switch(checkedId){
 		case R.id.radio_button0:
 			this.tabhost.setCurrentTabByTag("Work");
 			
-			btn.setText("¹¦ÄÜµ¼º½");
+			btn.setText("åŠŸèƒ½å¯¼èˆª");
 			break;
 		case R.id.radio_button1:
 			this.tabhost.setCurrentTabByTag("Con");
-			btn.setText("ÎÒµÄ¹Ø×¢");
+			btn.setText("æˆ‘çš„å…³æ³¨");
 			break;
 		case R.id.radio_button2:
 			this.tabhost.setCurrentTabByTag("Tool");
-			btn.setText("¹¤¾ßÏä");
+			btn.setText("å·¥å…·ç®±");
 			break;
 		case R.id.radio_button3:
 			this.tabhost.setCurrentTabByTag("Set");
-			btn.setText("ÉèÖÃ");
+			btn.setText("è®¾ç½®");
 			break;
 		
 		}
